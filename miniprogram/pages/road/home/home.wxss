@@ -1,0 +1,54 @@
+.view_item_parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100;
+  height: 180rpx;
+  line-height: 180rpx;
+  margin-top: 24rpx;
+  margin-left: 13rpx;
+  margin-right: 13rpx;
+  background: #FFF;
+}
+
+.view_item_parent image {
+  width: 140rpx;
+  height: 140rpx;
+  background: red;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+
+.view_item_info_parent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 20rpx;
+}
+
+.view_item_info_parent text {
+  font-size: 26rpx;
+  line-height: 26rpx;
+  margin-top: 20rpx;
+}
+
+.view_item_info_parent view {
+  margin-top: 60rpx;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  line-height: 32rpx;
+}
+
+.view_item_state_parent {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.view_item_state_parent .view_item_state_progress_parent {
+  height: 100rpx;
+  width: 100rpx;
+}

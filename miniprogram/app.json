@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/road/home/home",
+    "pages/road/flex/flex",
+    "pages/road/test_ic/test",
+    "pages/road/user/user",
+    "pages/cloud/cloud"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WAR HU road",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/road/home/home",
+        "text": "优惠",
+        "iconPath": "images/road/home/ic_home_normal.png",
+        "selectedIconPath": "images/road/home/ic_home_selected.png"
+      },
+      {
+        "pagePath": "pages/road/user/user",
+        "text": "我的",
+        "iconPath": "images/road/home/ic_home_user_normal.png",
+        "selectedIconPath": "images/road/home/ic_home_user_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

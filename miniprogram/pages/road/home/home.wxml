@@ -1,0 +1,22 @@
+<view>
+	<!-- 建议：少用 float 和 postion  用 flex 布局 -->
+
+	<view class="view_item_parent">
+		<image></image>
+		<view class="view_item_info_parent">
+			<text>测试自动退款</text>
+			<view>
+				<text style="font-size:32rpx;color:red;">1元</text>
+				<text style="font-size:22rpx;color:red;margin-left:13rpx;padding-top:5rpx;">无门槛使用</text>
+			</view>
+		</view>
+		<view style="height:140rpx;width:1rpx;background:#000;line-height:140rpx;margin-top:20rpx;margin-left:200rpx;"></view>
+		<view class="view_item_state_parent">
+			<view class="view_item_state_progress_parent">
+				<text style="width:50rpx;height:20rpx;font-size:20rpx;line-height:20rpx;">已抢8%</text>
+			</view>
+			<text style="height:26rpx;font-size:26rpx;line-height:26rpx;padding-bottom:20rpx;">立即领取</text>
+		</view>
+	</view>
+
+</view>

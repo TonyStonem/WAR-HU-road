@@ -1,0 +1,21 @@
+<view id="home_root">
+
+	<icon type="search" size="50rpx"></icon>
+
+	<icon type="clear" size="50rpx"></icon>
+
+	<icon type="cancel" size="50rpx"></icon>
+
+	<icon type="success" size="50rpx"></icon>
+
+	<icon type="success_no_circle" size="50rpx"></icon>
+
+	<icon type="info" size="50rpx"></icon>
+
+	<icon type="warn" size="50rpx"></icon>
+
+	<icon type="waiting" size="50rpx"></icon>
+
+	<icon type="download" size="50rpx"></icon>
+
+</view>

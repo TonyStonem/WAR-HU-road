@@ -1,0 +1,15 @@
+<view class="container">
+ <!-- 这个是父元素 -->
+ <!-- 这个不会受影响对吧??? -->
+  <view>
+    子元素
+  </view>
+  <view class="demo">
+    <!-- 子元素 -->
+    <view>
+      <image src="../../../images/code-db-onQuery.png"style="width:300rpx;height:300rpx;"></image>
+    </view>
+    <view>我顶顶顶顶</view>
+  </view>
+  <!-- 我们让它横杠来，也就是刚刚你的那个业务是不是很简单  -->
+</view>

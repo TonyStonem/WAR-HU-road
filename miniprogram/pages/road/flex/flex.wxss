@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  /* 纵轴轴 */
+}
+/* 1
+1
+1 动了，这个
+1 */
+.demo{
+  width: 100%;
+  /* 750rpx */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.demo>view:nth-child(2){
+  margin-left: 150rpx;
+}
+/* 指定的第一个view */
+/* 会了没有??? ok 有点看懂了 可能要试一下嗯嗯 谢谢啦 */
